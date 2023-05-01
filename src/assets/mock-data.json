@@ -1,0 +1,1835 @@
+[
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55c904e5779c4b6cdbf59493e0955691e5d9ac45.001.1",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55c904e5779c4b6cdbf59493e0955691e5d9ac45.001.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.55c904e5779c4b6cdbf59493e0955691e5d9ac45.001.1",
+      "areaDesc": "Imperial County Southwest",
+      "geocode": {
+        "SAME": [
+          "006025"
+        ],
+        "UGC": [
+          "CAZ562"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/forecast/CAZ562"
+      ],
+      "references": [
+        {
+          "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e68cc547926c721f798af6866260d73bdab5708.002.1",
+          "identifier": "urn:oid:2.49.0.1.840.0.2e68cc547926c721f798af6866260d73bdab5708.002.1",
+          "sender": "w-nws.webmaster@noaa.gov",
+          "sent": "2023-04-30T15:48:00-07:00"
+        }
+      ],
+      "sent": "2023-05-01T01:16:00-07:00",
+      "effective": "2023-05-01T01:16:00-07:00",
+      "onset": "2023-05-01T11:00:00-07:00",
+      "expires": "2023-05-01T16:15:00-07:00",
+      "ends": "2023-05-02T05:00:00-07:00",
+      "status": "Actual",
+      "messageType": "Update",
+      "category": "Met",
+      "severity": "Moderate",
+      "certainty": "Likely",
+      "urgency": "Expected",
+      "event": "Wind Advisory",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Phoenix AZ",
+      "headline": "Wind Advisory issued May 1 at 1:16AM MST until May 2 at 5:00AM MST by NWS Phoenix AZ",
+      "description": "* WHAT...Southwest winds 30 to 40 mph with gusts up to 50 mph.\n\n* WHERE...Southwest corner of Imperial County.\n\n* WHEN...From 11 AM today to 5 AM PDT Tuesday.\n\n* IMPACTS...Difficult driving conditions, especially for larger\nvehicles traveling along roads with crosswinds. Light, unsecured\nobjects may become airborne.",
+      "instruction": "A Wind Advisory means that sustained wind speeds of between\n30 and 40 mph are expected, or wind gusts of between 40 and\n58 mph. Winds this strong can make driving difficult, especially\nfor high profile vehicles. In addition, strong winds over desert\nareas could result in briefly lowered visibilities to well under\na mile at times in blowing dust or blowing sand. Use extra\ncaution.",
+      "response": "Execute",
+      "parameters": {
+        "AWIPSidentifier": [
+          "NPWPSR"
+        ],
+        "WMOidentifier": [
+          "WWUS75 KPSR 010816"
+        ],
+        "NWSheadline": [
+          "WIND ADVISORY REMAINS IN EFFECT FROM 11 AM THIS MORNING TO 5 AM PDT TUESDAY"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "VTEC": [
+          "/O.CON.KPSR.WI.Y.0026.230501T1800Z-230502T1200Z/"
+        ],
+        "eventEndingTime": [
+          "2023-05-02T12:00:00+00:00"
+        ],
+        "expiredReferences": [
+          "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a54ae79499dd6b4de199370e1931ad6194ba2753.001.1,2023-04-30T02:22:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9429e577f2110ede2b630c7ce76d2e5b830ff006.001.1,2022-05-21T00:52:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2f3d710cfdb106108911a10aecdaa35bac20d855.001.1,2022-05-20T19:06:00-07:00"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55c904e5779c4b6cdbf59493e0955691e5d9ac45.002.1",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55c904e5779c4b6cdbf59493e0955691e5d9ac45.002.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.55c904e5779c4b6cdbf59493e0955691e5d9ac45.002.1",
+      "areaDesc": "Salton Sea; Imperial County West; Imperial Valley",
+      "geocode": {
+        "SAME": [
+          "006025",
+          "006065"
+        ],
+        "UGC": [
+          "CAZ563",
+          "CAZ566",
+          "CAZ567"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/forecast/CAZ563",
+        "https://api.weather.gov/zones/forecast/CAZ566",
+        "https://api.weather.gov/zones/forecast/CAZ567"
+      ],
+      "references": [
+        {
+          "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e68cc547926c721f798af6866260d73bdab5708.003.1",
+          "identifier": "urn:oid:2.49.0.1.840.0.2e68cc547926c721f798af6866260d73bdab5708.003.1",
+          "sender": "w-nws.webmaster@noaa.gov",
+          "sent": "2023-04-30T15:48:00-07:00"
+        },
+        {
+          "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2e68cc547926c721f798af6866260d73bdab5708.001.1",
+          "identifier": "urn:oid:2.49.0.1.840.0.2e68cc547926c721f798af6866260d73bdab5708.001.1",
+          "sender": "w-nws.webmaster@noaa.gov",
+          "sent": "2023-04-30T15:48:00-07:00"
+        }
+      ],
+      "sent": "2023-05-01T01:16:00-07:00",
+      "effective": "2023-05-01T01:16:00-07:00",
+      "onset": "2023-05-01T14:00:00-07:00",
+      "expires": "2023-05-01T16:15:00-07:00",
+      "ends": "2023-05-01T23:00:00-07:00",
+      "status": "Actual",
+      "messageType": "Update",
+      "category": "Met",
+      "severity": "Moderate",
+      "certainty": "Likely",
+      "urgency": "Expected",
+      "event": "Wind Advisory",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Phoenix AZ",
+      "headline": "Wind Advisory issued May 1 at 1:16AM MST until May 1 at 11:00PM MST by NWS Phoenix AZ",
+      "description": "* WHAT...West winds 25 to 35 mph with gusts up to 45 mph.\n\n* WHERE...Imperial Valley and Salton Sea including the city of El\nCentro.\n\n* WHEN...From 2 PM to 11 PM PDT today.\n\n* IMPACTS...Difficult driving conditions, especially for larger\nvehicles traveling along roads with crosswinds. Light,\nunsecured objects may become airborne.",
+      "instruction": "A Wind Advisory means that sustained wind speeds of between\n30 and 40 mph are expected, or wind gusts of between 40 and\n58 mph. Winds this strong can make driving difficult, especially\nfor high profile vehicles. In addition, strong winds over desert\nareas could result in briefly lowered visibilities to well under\na mile at times in blowing dust or blowing sand. Use extra\ncaution.",
+      "response": "Execute",
+      "parameters": {
+        "AWIPSidentifier": [
+          "NPWPSR"
+        ],
+        "WMOidentifier": [
+          "WWUS75 KPSR 010816"
+        ],
+        "NWSheadline": [
+          "WIND ADVISORY REMAINS IN EFFECT FROM 2 PM THIS AFTERNOON TO 11 PM PDT THIS EVENING"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "VTEC": [
+          "/O.CON.KPSR.WI.Y.0026.230501T2100Z-230502T0600Z/"
+        ],
+        "eventEndingTime": [
+          "2023-05-02T06:00:00+00:00"
+        ],
+        "expiredReferences": [
+          "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a54ae79499dd6b4de199370e1931ad6194ba2753.002.1,2023-04-30T02:22:00-07:00"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24cc1dc7960e5acf6e4357a5dee7034eab7d91a8.002.1",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24cc1dc7960e5acf6e4357a5dee7034eab7d91a8.002.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.24cc1dc7960e5acf6e4357a5dee7034eab7d91a8.002.1",
+      "areaDesc": "Owens Valley; White Mountains of Inyo County; Esmeralda and Central Nye County",
+      "geocode": {
+        "SAME": [
+          "006027",
+          "032009",
+          "032023"
+        ],
+        "UGC": [
+          "CAZ520",
+          "CAZ521",
+          "NVZ014"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/forecast/CAZ520",
+        "https://api.weather.gov/zones/forecast/CAZ521",
+        "https://api.weather.gov/zones/forecast/NVZ014"
+      ],
+      "references": [
+        {
+          "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d1058976bd0a619bd6f8e6835c3685707f5d75dd.002.1",
+          "identifier": "urn:oid:2.49.0.1.840.0.d1058976bd0a619bd6f8e6835c3685707f5d75dd.002.1",
+          "sender": "w-nws.webmaster@noaa.gov",
+          "sent": "2023-04-30T15:54:00-07:00"
+        }
+      ],
+      "sent": "2023-05-01T00:48:00-07:00",
+      "effective": "2023-05-01T00:48:00-07:00",
+      "onset": "2023-05-01T09:00:00-07:00",
+      "expires": "2023-05-01T09:00:00-07:00",
+      "ends": "2023-05-02T20:00:00-07:00",
+      "status": "Actual",
+      "messageType": "Update",
+      "category": "Met",
+      "severity": "Moderate",
+      "certainty": "Likely",
+      "urgency": "Expected",
+      "event": "Wind Advisory",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Las Vegas NV",
+      "headline": "Wind Advisory issued May 1 at 12:48AM PDT until May 2 at 8:00PM PDT by NWS Las Vegas NV",
+      "description": "* WHAT...South winds 25 to 35 mph with gusts up to 50 mph\nexpected.\n\n* WHERE...In California, Owens Valley and White Mountains of\nInyo County. In Nevada, Esmeralda and Central Nye County.\n\n* WHEN...From 9 AM this morning to 8 PM PDT Tuesday.\n\n* IMPACTS...Gusty winds could blow around unsecured objects,\ncreate hazardous driving conditions for high profile vehicles,\nand a few power outages may result.\n\n* ADDITIONAL INFORMATION...This advisory will remain in effect\nthrough Tuesday evening, however, there will be lulls in wind\nspeeds, especially overnight Monday night into Tuesday morning.\nDuring that time, lesser wind gusts and impacts are expected,\nbut winds will become strong again by Tuesday afternoon.",
+      "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle. Secure outdoor objects.",
+      "response": "Execute",
+      "parameters": {
+        "AWIPSidentifier": [
+          "NPWVEF"
+        ],
+        "WMOidentifier": [
+          "WWUS75 KVEF 010748"
+        ],
+        "NWSheadline": [
+          "WIND ADVISORY NOW IN EFFECT FROM 9 AM THIS MORNING TO 8 PM PDT TUESDAY"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "VTEC": [
+          "/O.EXT.KVEF.WI.Y.0030.230501T1600Z-230503T0300Z/"
+        ],
+        "eventEndingTime": [
+          "2023-05-03T03:00:00+00:00"
+        ],
+        "expiredReferences": [
+          "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2c04da0acaf9bd594dbdff85326386b8873ee53e.002.1,2023-04-30T01:29:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.93eacae3dec4778034a1250e660da6e2be59efe1.002.1,2023-04-29T13:02:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6421ea88f690db71e0e542ff7d2e2cba224be6ec.003.1,2022-06-12T19:49:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.aa7980f407a4cf4736014a9176e97880d630ddbb.003.1,2022-06-12T10:43:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.157f321a502f34ac9bc1330cf888e6df49b09cde.003.1,2022-06-12T02:34:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5ae91b0c8c72e1b8327d9dcd64522a1634460ff0.005.1,2022-06-11T19:54:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.547bb885c3b32c0f75b2963bafa56606c663826b.005.1,2022-06-11T15:12:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0887e4282828f008c2990425c451dbf54156e518.005.1,2022-06-11T02:24:00-07:00"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24cc1dc7960e5acf6e4357a5dee7034eab7d91a8.001.1",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24cc1dc7960e5acf6e4357a5dee7034eab7d91a8.001.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.24cc1dc7960e5acf6e4357a5dee7034eab7d91a8.001.1",
+      "areaDesc": "Death Valley National Park",
+      "geocode": {
+        "SAME": [
+          "006027"
+        ],
+        "UGC": [
+          "CAZ522"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/forecast/CAZ522"
+      ],
+      "references": [
+        {
+          "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d1058976bd0a619bd6f8e6835c3685707f5d75dd.001.1",
+          "identifier": "urn:oid:2.49.0.1.840.0.d1058976bd0a619bd6f8e6835c3685707f5d75dd.001.1",
+          "sender": "w-nws.webmaster@noaa.gov",
+          "sent": "2023-04-30T15:54:00-07:00"
+        }
+      ],
+      "sent": "2023-05-01T00:48:00-07:00",
+      "effective": "2023-05-01T00:48:00-07:00",
+      "onset": "2023-05-01T00:48:00-07:00",
+      "expires": "2023-05-01T09:00:00-07:00",
+      "ends": "2023-05-02T20:00:00-07:00",
+      "status": "Actual",
+      "messageType": "Update",
+      "category": "Met",
+      "severity": "Moderate",
+      "certainty": "Likely",
+      "urgency": "Expected",
+      "event": "Wind Advisory",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Las Vegas NV",
+      "headline": "Wind Advisory issued May 1 at 12:48AM PDT until May 2 at 8:00PM PDT by NWS Las Vegas NV",
+      "description": "* WHAT...Periods of strong southerly winds of 25 to 35 mph with\ngusts up to 50 mph.\n\n* WHERE...Death Valley National Park.\n\n* WHEN...Until 8 PM PDT Tuesday.\n\n* IMPACTS...Gusty winds could result in sudden dust storms,\nespecially near dry lake beds. Anyone recreating in the National\nPark may experience dangerous wind gusts, especially those in\nhigh elevations or in slot canyons. A few power outages may\nresult.\n\n* ADDITIONAL INFORMATION...This advisory will remain in effect\nthrough Tuesday evening, however, there will be lulls in wind\nspeeds, especially overnight Monday night into Tuesday morning.\nDuring that time, lesser wind gusts and impacts are expected,\nbut winds will become strong again by Tuesday afternoon.",
+      "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle. Secure outdoor objects.",
+      "response": "Execute",
+      "parameters": {
+        "AWIPSidentifier": [
+          "NPWVEF"
+        ],
+        "WMOidentifier": [
+          "WWUS75 KVEF 010748"
+        ],
+        "NWSheadline": [
+          "WIND ADVISORY NOW IN EFFECT UNTIL 8 PM PDT TUESDAY"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "VTEC": [
+          "/O.EXT.KVEF.WI.Y.0030.000000T0000Z-230503T0300Z/"
+        ],
+        "eventEndingTime": [
+          "2023-05-03T03:00:00+00:00"
+        ],
+        "expiredReferences": [
+          "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2c04da0acaf9bd594dbdff85326386b8873ee53e.001.1,2023-04-30T01:29:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.93eacae3dec4778034a1250e660da6e2be59efe1.001.1,2023-04-29T13:02:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6421ea88f690db71e0e542ff7d2e2cba224be6ec.003.1,2022-06-12T19:49:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.aa7980f407a4cf4736014a9176e97880d630ddbb.003.1,2022-06-12T10:43:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.157f321a502f34ac9bc1330cf888e6df49b09cde.003.1,2022-06-12T02:34:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5ae91b0c8c72e1b8327d9dcd64522a1634460ff0.001.2,2022-06-11T19:54:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.547bb885c3b32c0f75b2963bafa56606c663826b.001.2,2022-06-11T15:12:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0887e4282828f008c2990425c451dbf54156e518.001.1,2022-06-11T02:24:00-07:00"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24cc1dc7960e5acf6e4357a5dee7034eab7d91a8.004.1",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24cc1dc7960e5acf6e4357a5dee7034eab7d91a8.004.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.24cc1dc7960e5acf6e4357a5dee7034eab7d91a8.004.1",
+      "areaDesc": "Northwest Plateau; Northwest Deserts; Lake Mead National Recreation Area; Eastern Sierra Slopes of Inyo County; Morongo Basin; Lincoln County; Northeast Clark County; Western Clark and Southern Nye County; Las Vegas Valley; Lake Mead National Recreation Area; Southern Clark County",
+      "geocode": {
+        "SAME": [
+          "004015",
+          "006027",
+          "006071",
+          "032017",
+          "032003",
+          "032023"
+        ],
+        "UGC": [
+          "AZZ001",
+          "AZZ003",
+          "AZZ036",
+          "CAZ519",
+          "CAZ525",
+          "NVZ015",
+          "NVZ016",
+          "NVZ017",
+          "NVZ020",
+          "NVZ021",
+          "NVZ022"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/forecast/AZZ001",
+        "https://api.weather.gov/zones/forecast/AZZ003",
+        "https://api.weather.gov/zones/forecast/AZZ036",
+        "https://api.weather.gov/zones/forecast/CAZ519",
+        "https://api.weather.gov/zones/forecast/CAZ525",
+        "https://api.weather.gov/zones/forecast/NVZ015",
+        "https://api.weather.gov/zones/forecast/NVZ016",
+        "https://api.weather.gov/zones/forecast/NVZ017",
+        "https://api.weather.gov/zones/forecast/NVZ020",
+        "https://api.weather.gov/zones/forecast/NVZ021",
+        "https://api.weather.gov/zones/forecast/NVZ022"
+      ],
+      "references": [
+        {
+          "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d1058976bd0a619bd6f8e6835c3685707f5d75dd.002.1",
+          "identifier": "urn:oid:2.49.0.1.840.0.d1058976bd0a619bd6f8e6835c3685707f5d75dd.002.1",
+          "sender": "w-nws.webmaster@noaa.gov",
+          "sent": "2023-04-30T15:54:00-07:00"
+        }
+      ],
+      "sent": "2023-05-01T00:48:00-07:00",
+      "effective": "2023-05-01T00:48:00-07:00",
+      "onset": "2023-05-01T09:00:00-07:00",
+      "expires": "2023-05-01T09:00:00-07:00",
+      "ends": "2023-05-01T23:00:00-07:00",
+      "status": "Actual",
+      "messageType": "Update",
+      "category": "Met",
+      "severity": "Moderate",
+      "certainty": "Likely",
+      "urgency": "Expected",
+      "event": "Wind Advisory",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Las Vegas NV",
+      "headline": "Wind Advisory issued May 1 at 12:48AM PDT until May 1 at 11:00PM PDT by NWS Las Vegas NV",
+      "description": "* WHAT...South winds 20 to 30 mph with gusts up to 45 mph\nexpected.\n\n* WHERE...Portions of northwest Arizona, southeast California\nand south central and southern Nevada.\n\n* WHEN...From 9 AM this morning to 11 PM this evening.\n\n* IMPACTS...Gusty winds could blow around unsecured objects and\nresult in brief power outages, driving may become hazardous\nfor high profile vehicles, and periods of blowing dust could\noccur.",
+      "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle. Secure outdoor objects.",
+      "response": "Execute",
+      "parameters": {
+        "AWIPSidentifier": [
+          "NPWVEF"
+        ],
+        "WMOidentifier": [
+          "WWUS75 KVEF 010748"
+        ],
+        "NWSheadline": [
+          "WIND ADVISORY REMAINS IN EFFECT FROM 9 AM THIS MORNING TO 11 PM THIS EVENING"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "VTEC": [
+          "/O.CON.KVEF.WI.Y.0030.230501T1600Z-230502T0600Z/"
+        ],
+        "eventEndingTime": [
+          "2023-05-02T06:00:00+00:00"
+        ],
+        "expiredReferences": [
+          "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2c04da0acaf9bd594dbdff85326386b8873ee53e.002.1,2023-04-30T01:29:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.93eacae3dec4778034a1250e660da6e2be59efe1.002.1,2023-04-29T13:02:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.53c8e9b890d59c4e351a40af5e255309324306a7.001.1,2022-06-13T04:47:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6421ea88f690db71e0e542ff7d2e2cba224be6ec.004.1,2022-06-12T19:49:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6421ea88f690db71e0e542ff7d2e2cba224be6ec.001.2,2022-06-12T19:49:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6421ea88f690db71e0e542ff7d2e2cba224be6ec.003.1,2022-06-12T19:49:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.aa7980f407a4cf4736014a9176e97880d630ddbb.001.2,2022-06-12T10:43:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.aa7980f407a4cf4736014a9176e97880d630ddbb.003.1,2022-06-12T10:43:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.157f321a502f34ac9bc1330cf888e6df49b09cde.003.1,2022-06-12T02:34:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.157f321a502f34ac9bc1330cf888e6df49b09cde.001.2,2022-06-12T02:34:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5ae91b0c8c72e1b8327d9dcd64522a1634460ff0.005.1,2022-06-11T19:54:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5ae91b0c8c72e1b8327d9dcd64522a1634460ff0.003.2,2022-06-11T19:54:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5ae91b0c8c72e1b8327d9dcd64522a1634460ff0.001.2,2022-06-11T19:54:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.547bb885c3b32c0f75b2963bafa56606c663826b.001.2,2022-06-11T15:12:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.547bb885c3b32c0f75b2963bafa56606c663826b.002.2,2022-06-11T15:12:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.547bb885c3b32c0f75b2963bafa56606c663826b.005.1,2022-06-11T15:12:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0887e4282828f008c2990425c451dbf54156e518.005.1,2022-06-11T02:24:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0887e4282828f008c2990425c451dbf54156e518.001.1,2022-06-11T02:24:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0887e4282828f008c2990425c451dbf54156e518.002.1,2022-06-11T02:24:00-07:00"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24cc1dc7960e5acf6e4357a5dee7034eab7d91a8.003.1",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.24cc1dc7960e5acf6e4357a5dee7034eab7d91a8.003.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.24cc1dc7960e5acf6e4357a5dee7034eab7d91a8.003.1",
+      "areaDesc": "Western Mojave Desert",
+      "geocode": {
+        "SAME": [
+          "006071"
+        ],
+        "UGC": [
+          "CAZ523"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/forecast/CAZ523"
+      ],
+      "references": [
+        {
+          "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d1058976bd0a619bd6f8e6835c3685707f5d75dd.001.1",
+          "identifier": "urn:oid:2.49.0.1.840.0.d1058976bd0a619bd6f8e6835c3685707f5d75dd.001.1",
+          "sender": "w-nws.webmaster@noaa.gov",
+          "sent": "2023-04-30T15:54:00-07:00"
+        }
+      ],
+      "sent": "2023-05-01T00:48:00-07:00",
+      "effective": "2023-05-01T00:48:00-07:00",
+      "onset": "2023-05-01T00:48:00-07:00",
+      "expires": "2023-05-01T09:00:00-07:00",
+      "ends": "2023-05-01T23:00:00-07:00",
+      "status": "Actual",
+      "messageType": "Update",
+      "category": "Met",
+      "severity": "Moderate",
+      "certainty": "Likely",
+      "urgency": "Expected",
+      "event": "Wind Advisory",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Las Vegas NV",
+      "headline": "Wind Advisory issued May 1 at 12:48AM PDT until May 1 at 11:00PM PDT by NWS Las Vegas NV",
+      "description": "* WHAT...Southwest winds 25 to 35 mph with gusts up to 55 mph.\n\n* WHERE...Western Mojave Desert.\n\n* WHEN...Until 11 PM PDT this evening.\n\n* IMPACTS...Gusty winds could blow around unsecured objects and\nresult in brief power outages, driving may become hazardous\nfor high profile vehicles, and periods of blowing dust could\noccur.",
+      "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle. Secure outdoor objects.",
+      "response": "Execute",
+      "parameters": {
+        "AWIPSidentifier": [
+          "NPWVEF"
+        ],
+        "WMOidentifier": [
+          "WWUS75 KVEF 010748"
+        ],
+        "NWSheadline": [
+          "WIND ADVISORY REMAINS IN EFFECT UNTIL 11 PM PDT THIS EVENING"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "VTEC": [
+          "/O.CON.KVEF.WI.Y.0030.000000T0000Z-230502T0600Z/"
+        ],
+        "eventEndingTime": [
+          "2023-05-02T06:00:00+00:00"
+        ],
+        "expiredReferences": [
+          "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2c04da0acaf9bd594dbdff85326386b8873ee53e.001.1,2023-04-30T01:29:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.93eacae3dec4778034a1250e660da6e2be59efe1.001.1,2023-04-29T13:02:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7015b04932293dad35bd70ffd280bd5c99172047.001.1,2022-06-13T19:54:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.53c8e9b890d59c4e351a40af5e255309324306a7.002.1,2022-06-13T04:47:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6421ea88f690db71e0e542ff7d2e2cba224be6ec.004.1,2022-06-12T19:49:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.aa7980f407a4cf4736014a9176e97880d630ddbb.003.1,2022-06-12T10:43:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.157f321a502f34ac9bc1330cf888e6df49b09cde.003.1,2022-06-12T02:34:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5ae91b0c8c72e1b8327d9dcd64522a1634460ff0.001.2,2022-06-11T19:54:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.547bb885c3b32c0f75b2963bafa56606c663826b.001.2,2022-06-11T15:12:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0887e4282828f008c2990425c451dbf54156e518.001.1,2022-06-11T02:24:00-07:00"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a9a8b7df293814b31dddb45947407497cf4e3e14.001.1",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a9a8b7df293814b31dddb45947407497cf4e3e14.001.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.a9a8b7df293814b31dddb45947407497cf4e3e14.001.1",
+      "areaDesc": "Santa Barbara County Southwestern Coast; Santa Ynez Mountains Western Range",
+      "geocode": {
+        "SAME": [
+          "006083"
+        ],
+        "UGC": [
+          "CAZ349",
+          "CAZ351"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/forecast/CAZ349",
+        "https://api.weather.gov/zones/forecast/CAZ351"
+      ],
+      "references": [
+        {
+          "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dea10457d8043898bb8b6de59f68b1a21eeb916a.002.1",
+          "identifier": "urn:oid:2.49.0.1.840.0.dea10457d8043898bb8b6de59f68b1a21eeb916a.002.1",
+          "sender": "w-nws.webmaster@noaa.gov",
+          "sent": "2023-04-30T19:55:00-07:00"
+        }
+      ],
+      "sent": "2023-04-30T22:42:00-07:00",
+      "effective": "2023-04-30T22:42:00-07:00",
+      "onset": "2023-04-30T22:42:00-07:00",
+      "expires": "2023-05-01T03:00:00-07:00",
+      "ends": "2023-05-01T03:00:00-07:00",
+      "status": "Actual",
+      "messageType": "Update",
+      "category": "Met",
+      "severity": "Moderate",
+      "certainty": "Likely",
+      "urgency": "Expected",
+      "event": "Wind Advisory",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Los Angeles/Oxnard CA",
+      "headline": "Wind Advisory issued April 30 at 10:42PM PDT until May 1 at 3:00AM PDT by NWS Los Angeles/Oxnard CA",
+      "description": "* WHAT...Northwest winds 20 to 35 mph with gusts up to 50 mph\nexpected.\n\n* WHERE...Santa Barbara County Southwestern Coast and Santa Ynez\nMountains Western Range.\n\n* WHEN...Until 3 AM PDT Monday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects and\nmake driving difficult, especially for high profile vehicles.\nRoadways affected by gusty cross winds may include Highways\n101 and 154. Tree limbs could be blown down and a few power\noutages may result.",
+      "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle. Secure outdoor objects.",
+      "response": "Execute",
+      "parameters": {
+        "AWIPSidentifier": [
+          "NPWLOX"
+        ],
+        "WMOidentifier": [
+          "WWUS76 KLOX 010542"
+        ],
+        "NWSheadline": [
+          "WIND ADVISORY REMAINS IN EFFECT UNTIL 3 AM PDT MONDAY"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "VTEC": [
+          "/O.CON.KLOX.WI.Y.0049.000000T0000Z-230501T1000Z/"
+        ],
+        "eventEndingTime": [
+          "2023-05-01T10:00:00+00:00"
+        ],
+        "expiredReferences": [
+          "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0079d7949973fdd94d037b4ea7d152f3ccc3a404.003.1,2023-04-30T14:00:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4715eaef3085394d59daa5be272d3b4e4d39cbe2.003.1,2023-04-30T11:01:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.184fb042c5c9cda7499ff5560d313454a02fc5f1.003.1,2023-04-30T03:00:00-07:00"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4bcc7ad9219b51b4b1d99358815d0625672f2f49.001.1",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4bcc7ad9219b51b4b1d99358815d0625672f2f49.001.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.4bcc7ad9219b51b4b1d99358815d0625672f2f49.001.1",
+      "areaDesc": "Yosemite NP outside of the valley; Yosemite Valley",
+      "geocode": {
+        "SAME": [
+          "006039",
+          "006043",
+          "006109"
+        ],
+        "UGC": [
+          "CAZ323",
+          "CAZ324"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/forecast/CAZ323",
+        "https://api.weather.gov/zones/forecast/CAZ324"
+      ],
+      "references": [
+        {
+          "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39a8890f54a4bea752fddaa671be610cd0be41c9.001.1",
+          "identifier": "urn:oid:2.49.0.1.840.0.39a8890f54a4bea752fddaa671be610cd0be41c9.001.1",
+          "sender": "w-nws.webmaster@noaa.gov",
+          "sent": "2023-04-30T11:44:00-07:00"
+        }
+      ],
+      "sent": "2023-04-30T21:34:00-07:00",
+      "effective": "2023-04-30T21:34:00-07:00",
+      "onset": "2023-04-30T21:34:00-07:00",
+      "expires": "2023-05-01T05:45:00-07:00",
+      "ends": "2023-05-02T07:00:00-07:00",
+      "status": "Actual",
+      "messageType": "Update",
+      "category": "Met",
+      "severity": "Severe",
+      "certainty": "Possible",
+      "urgency": "Future",
+      "event": "Flood Watch",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Hanford CA",
+      "headline": "Flood Watch issued April 30 at 9:34PM PDT until May 2 at 7:00AM PDT by NWS Hanford CA",
+      "description": "* WHAT...Flooding caused by snowmelt continues to be possible.\n\n* WHERE...A portion of central California, including the following\nareas, Yosemite NP outside of the valley and Yosemite Valley.\n\n* WHEN...Through Tuesday morning.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks. Low-water\ncrossings may be flooded.\n\n* ADDITIONAL DETAILS...\n- Warm temperatures will cause increased snow melt which is\nexpected to contribute to flooding along waterways in\nYosemite National Park.\n- http://www.weather.gov/safety/flood",
+      "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop.",
+      "response": "Prepare",
+      "parameters": {
+        "AWIPSidentifier": [
+          "FFAHNX"
+        ],
+        "WMOidentifier": [
+          "WGUS66 KHNX 010434"
+        ],
+        "NWSheadline": [
+          "FLOOD WATCH FOR SNOWMELT REMAINS IN EFFECT THROUGH TUESDAY MORNING"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "EAS-ORG": [
+          "WXR"
+        ],
+        "VTEC": [
+          "/O.CON.KHNX.FA.A.0010.000000T0000Z-230502T1400Z/"
+        ],
+        "eventEndingTime": [
+          "2023-05-02T14:00:00+00:00"
+        ],
+        "expiredReferences": [
+          "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.acb27429de00baa792fdd48d1d2219e21b47011b.001.1,2023-04-30T03:30:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.253dfad1949c0f05b4f20ae1ea6c8f62e23598a4.001.1,2023-04-29T16:00:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0730c4efb1019a39ef45c6f8bf22fcdf7965236f.001.1,2023-04-29T03:40:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.57b5fe8c0a55aa9e083812aa37aa55d9a6ae15af.001.1,2023-04-28T18:10:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d6905e8644a6dfa3aa4e188a66db4a19dd00c71b.001.1,2023-04-28T06:19:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8046cfddb50bd27724f832df075527e56b1fb1a9.001.1,2023-04-27T22:39:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7318fbf19773bfdfc2cd8317cecd755b61c7ce48.001.1,2023-04-27T12:40:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a8ff8cf33db448a1cb37031f3a0510db86d8a063.001.1,2023-04-27T04:49:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3e2578503d96f5b17168e7d35da9a1c6eacf156d.001.1,2023-04-26T17:42:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e1cf89e6157073a19c220d5969c16dbb8b281f72.001.1,2023-04-26T09:34:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.48343fa2bb04df05d979de02480f505f9bbff5e5.001.1,2023-04-25T21:36:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9178d71fe92d0fc05098d101187e1f4c634357dc.001.1,2023-04-25T09:37:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e591096fbc14f2e33cc75f8194b792843221d86f.001.1,2023-04-25T00:45:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.92579bab5b60d2e5f015841b8d463a999ed4158e.001.1,2023-04-24T13:00:00-07:00"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.525848ffc6c04e40350585938447373825df59c4.001.1",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.525848ffc6c04e40350585938447373825df59c4.001.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.525848ffc6c04e40350585938447373825df59c4.001.1",
+      "areaDesc": "San Bernardino County Mountains; Riverside County Mountains; San Diego County Mountains; Apple and Lucerne Valleys; Coachella Valley; San Diego County Deserts; San Gorgonio Pass Near Banning",
+      "geocode": {
+        "SAME": [
+          "006071",
+          "006065",
+          "006073"
+        ],
+        "UGC": [
+          "CAZ055",
+          "CAZ056",
+          "CAZ058",
+          "CAZ060",
+          "CAZ061",
+          "CAZ062",
+          "CAZ065"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/forecast/CAZ055",
+        "https://api.weather.gov/zones/forecast/CAZ056",
+        "https://api.weather.gov/zones/forecast/CAZ058",
+        "https://api.weather.gov/zones/forecast/CAZ060",
+        "https://api.weather.gov/zones/forecast/CAZ061",
+        "https://api.weather.gov/zones/forecast/CAZ062",
+        "https://api.weather.gov/zones/forecast/CAZ065"
+      ],
+      "references": [
+        {
+          "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78507b652aff750c22271ff9ed89542fd81c20f7.001.1",
+          "identifier": "urn:oid:2.49.0.1.840.0.78507b652aff750c22271ff9ed89542fd81c20f7.001.1",
+          "sender": "w-nws.webmaster@noaa.gov",
+          "sent": "2023-04-30T12:50:00-07:00"
+        }
+      ],
+      "sent": "2023-04-30T21:12:00-07:00",
+      "effective": "2023-04-30T21:12:00-07:00",
+      "onset": "2023-05-01T11:00:00-07:00",
+      "expires": "2023-05-01T06:00:00-07:00",
+      "ends": "2023-05-02T01:00:00-07:00",
+      "status": "Actual",
+      "messageType": "Update",
+      "category": "Met",
+      "severity": "Moderate",
+      "certainty": "Likely",
+      "urgency": "Expected",
+      "event": "Wind Advisory",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS San Diego CA",
+      "headline": "Wind Advisory issued April 30 at 9:12PM PDT until May 2 at 1:00AM PDT by NWS San Diego CA",
+      "description": "* WHAT...Southwest winds 25 to 35 mph with gusts to 50 mph\nexpected. Localized gusts up to 65 mph in and below favored\nmountain passes and canyons.\n\n* WHERE...San Bernardino County Mountains, Riverside County\nMountains, San Diego County Mountains, Apple and Lucerne\nValleys, Coachella Valley, San Diego County Deserts and San\nGorgonio Pass Near Banning.\n\n* WHEN...From 11 AM Monday to 1 AM PDT Tuesday.\n\n* IMPACTS...Gusty winds could blow around unsecured objects.\nTree limbs could be blown down. Blowing dust and sand could\nseverely restrict visibility in the deserts.",
+      "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle. Secure outdoor objects.",
+      "response": "Execute",
+      "parameters": {
+        "AWIPSidentifier": [
+          "NPWSGX"
+        ],
+        "WMOidentifier": [
+          "WWUS76 KSGX 010412"
+        ],
+        "NWSheadline": [
+          "WIND ADVISORY REMAINS IN EFFECT FROM 11 AM MONDAY TO 1 AM PDT TUESDAY"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "VTEC": [
+          "/O.CON.KSGX.WI.Y.0031.230501T1800Z-230502T0800Z/"
+        ],
+        "eventEndingTime": [
+          "2023-05-02T08:00:00+00:00"
+        ],
+        "expiredReferences": [
+          "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c47794e17bf69740e040ac0acf5920faf7dffe1e.001.1,2023-04-30T04:30:00-07:00"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dfe322c5ad87d1231a7a84d3539e9593e78fc1fd.001.1",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dfe322c5ad87d1231a7a84d3539e9593e78fc1fd.001.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.dfe322c5ad87d1231a7a84d3539e9593e78fc1fd.001.1",
+      "areaDesc": "Indian Wells Valley; Mojave Desert Slopes; Mojave Desert",
+      "geocode": {
+        "SAME": [
+          "006029"
+        ],
+        "UGC": [
+          "CAZ337",
+          "CAZ338",
+          "CAZ339"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/forecast/CAZ337",
+        "https://api.weather.gov/zones/forecast/CAZ338",
+        "https://api.weather.gov/zones/forecast/CAZ339"
+      ],
+      "references": [
+        {
+          "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a00920e3c3a316512db915c7a593efa8fcf07427.001.1",
+          "identifier": "urn:oid:2.49.0.1.840.0.a00920e3c3a316512db915c7a593efa8fcf07427.001.1",
+          "sender": "w-nws.webmaster@noaa.gov",
+          "sent": "2023-04-30T10:56:00-07:00"
+        }
+      ],
+      "sent": "2023-04-30T18:31:00-07:00",
+      "effective": "2023-04-30T18:31:00-07:00",
+      "onset": "2023-05-01T12:00:00-07:00",
+      "expires": "2023-05-01T02:45:00-07:00",
+      "ends": "2023-05-02T05:00:00-07:00",
+      "status": "Actual",
+      "messageType": "Update",
+      "category": "Met",
+      "severity": "Moderate",
+      "certainty": "Likely",
+      "urgency": "Expected",
+      "event": "Wind Advisory",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Hanford CA",
+      "headline": "Wind Advisory issued April 30 at 6:31PM PDT until May 2 at 5:00AM PDT by NWS Hanford CA",
+      "description": "* WHAT...Southwest winds 25 to 35 mph with gusts up to 55 mph\nexpected.\n\n* WHERE...Indian Wells Valley, Mojave Desert Slopes and Mojave\nDesert.\n\n* WHEN...From noon Monday to 5 AM PDT Tuesday.\n\n* IMPACTS...Gusty winds could blow around unsecured objects. Tree\nlimbs could be blown down. Blowing dust could reduce\nvisibilities at times. Travel will be difficult, particularly\nfor high profile vehicles.",
+      "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle. Secure outdoor objects.",
+      "response": "Execute",
+      "parameters": {
+        "AWIPSidentifier": [
+          "NPWHNX"
+        ],
+        "WMOidentifier": [
+          "WWUS76 KHNX 010131"
+        ],
+        "NWSheadline": [
+          "WIND ADVISORY REMAINS IN EFFECT FROM NOON MONDAY TO 5 AM PDT TUESDAY"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "VTEC": [
+          "/O.CON.KHNX.WI.Y.0029.230501T1900Z-230502T1200Z/"
+        ],
+        "eventEndingTime": [
+          "2023-05-02T12:00:00+00:00"
+        ],
+        "expiredReferences": [
+          "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fca57d874a610012049a2eecb0f51c5a53d9e6f1.002.1,2022-05-09T08:50:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f1de6222d4913fddbc64faa33acd339989773f07.003.1,2022-05-08T22:42:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d2b4a178973653e18c3360abb28dff95c50a9d4c.002.1,2022-05-08T16:28:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dedf24083fe151874f79abef4ed8221c6da79383.002.1,2022-05-08T08:35:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fd0e9c064568f889951af4bec5836f489ff61706.002.1,2022-05-08T00:41:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fd0e9c064568f889951af4bec5836f489ff61706.001.1,2022-05-08T00:41:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4ed054ca98286255ee97b39a7523a166cc20cc75.002.1,2022-05-07T19:16:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4ed054ca98286255ee97b39a7523a166cc20cc75.001.2,2022-05-07T19:16:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d482522aa32a6e038832ad25faa6aa40a102a479.003.1,2022-05-07T11:40:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d482522aa32a6e038832ad25faa6aa40a102a479.001.2,2022-05-07T11:40:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8049ec4e82c0f17c943291922fc9ca06559128d7.002.1,2022-05-07T02:45:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8049ec4e82c0f17c943291922fc9ca06559128d7.001.1,2022-05-07T02:45:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.303fb7915a28665d4d9f178b268277d61f24ffb3.001.1,2022-05-06T20:41:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4d21e3c448bdb35da586faf425d7ab42edaf000e.001.1,2022-05-06T12:51:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7bd24bfccd29dcb384a9a206c5a94c8f9b8f4ff2.001.1,2022-05-06T04:30:00-07:00"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab8d0e68882fe41c374d7ecb69bba4eb3ece77c6.001.1",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab8d0e68882fe41c374d7ecb69bba4eb3ece77c6.001.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.ab8d0e68882fe41c374d7ecb69bba4eb3ece77c6.001.1",
+      "areaDesc": "Imperial County Southwest; Chuckwalla Mountains; Imperial County West; Imperial Valley; Chiriaco Summit",
+      "geocode": {
+        "SAME": [
+          "006025",
+          "006065"
+        ],
+        "UGC": [
+          "CAZ562",
+          "CAZ564",
+          "CAZ566",
+          "CAZ567",
+          "CAZ568"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/forecast/CAZ562",
+        "https://api.weather.gov/zones/forecast/CAZ564",
+        "https://api.weather.gov/zones/forecast/CAZ566",
+        "https://api.weather.gov/zones/forecast/CAZ567",
+        "https://api.weather.gov/zones/forecast/CAZ568"
+      ],
+      "references": [],
+      "sent": "2023-04-30T17:10:00-07:00",
+      "effective": "2023-04-30T17:10:00-07:00",
+      "onset": "2023-04-30T17:10:00-07:00",
+      "expires": "2023-05-02T00:00:00-07:00",
+      "ends": null,
+      "status": "Actual",
+      "messageType": "Alert",
+      "category": "Met",
+      "severity": "Unknown",
+      "certainty": "Unknown",
+      "urgency": "Unknown",
+      "event": "Air Quality Alert",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Phoenix AZ",
+      "headline": "Air Quality Alert issued April 30 at 5:10PM MST by NWS Phoenix AZ",
+      "description": "The South Coast AQMD has issued an air quality alert due to\nincreased particulate matter from blowing dust. The air quality\nalert is in effect from 11 AM Monday to 1 AM Tuesday.\n\nIn areas directly impacted by high levels of windblown dust, limit\nyour exposure by remaining indoors with windows and doors closed and\navoiding vigorous physical activity. Run your air conditioner or an\nair purifier. If temperatures allow, avoid using whole house fans or\nswamp coolers that bring in outside air.\n\nExposure to high particle pollution levels can cause serious health\nproblems, including asthma attacks, heart and lung disease symptoms,\nand increased risk of respiratory infections. People with heart or\nlung diseases should follow their doctor's advice for dealing with\nepisodes of unhealthy air quality. Children, older adults, and\npeople with respiratory or heart disease should avoid prolonged\nexposure and strenuous activities when particle pollution levels are\nhigh.\n\nTo help minimize outdoor particulate levels:\nCarpool, telecommute, reduce trips, or take public transportation\nSlow down if driving on dirt roads\nStabilize loose soils\n\nLevels of particulate matter can vary hour by hour and by location\ndepending on wind conditions.\n\nTo view current and forecasted air quality levels, visit the South\nCoast Air Quality Management District website at aqmd.gov or\ndownload the mobile app at www.aqmd.gov/mobileapp. Additional\ndetails for this air quality alert may be available at\nwww.aqmd.gov/advisory.\n\nTo view current and forecasted air quality levels, visit the Mojave\nDesert Air Quality Management District website at mdaqmd.ca.gov.\nAdditional details for this air quality alert may be available at\nwww.mdaqmd.ca.gov/advisories.\n\nTo view current and forecast air quality within Imperial County\nvisit the Imperial County Air Quality website at\nhttp://www.imperialvalleyair.org/ or follow ICAPCD on Twitter,\nfacebook or Instagram (@county_air).",
+      "instruction": null,
+      "response": "Monitor",
+      "parameters": {
+        "AWIPSidentifier": [
+          "AQAPSR"
+        ],
+        "WMOidentifier": [
+          "AEUS75 KPSR 010010"
+        ],
+        "NWSheadline": [
+          "AIR QUALITY ALERT DUE TO ELEVATED PARTICULATE MATTER LEVELS FROM WINDBLOWN DUST"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ee28eb28bde3ad2aaba63a214885415364d0a55.001.1",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1ee28eb28bde3ad2aaba63a214885415364d0a55.001.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.1ee28eb28bde3ad2aaba63a214885415364d0a55.001.1",
+      "areaDesc": "Surprise Valley California; Lassen-Eastern Plumas-Eastern Sierra Counties; Greater Lake Tahoe Area; Mono; Mineral and Southern Lyon Counties; Greater Lake Tahoe Area; Greater Reno-Carson City-Minden Area; Western Nevada Basin and Range including Pyramid Lake; Northern Washoe County",
+      "geocode": {
+        "SAME": [
+          "006049",
+          "006035",
+          "006063",
+          "006091",
+          "006003",
+          "006017",
+          "006057",
+          "006061",
+          "006051",
+          "032019",
+          "032021",
+          "032005",
+          "032031",
+          "032510",
+          "032029",
+          "032001",
+          "032027"
+        ],
+        "UGC": [
+          "CAZ070",
+          "CAZ071",
+          "CAZ072",
+          "CAZ073",
+          "NVZ001",
+          "NVZ002",
+          "NVZ003",
+          "NVZ004",
+          "NVZ005"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/forecast/CAZ070",
+        "https://api.weather.gov/zones/forecast/CAZ071",
+        "https://api.weather.gov/zones/forecast/CAZ072",
+        "https://api.weather.gov/zones/forecast/CAZ073",
+        "https://api.weather.gov/zones/forecast/NVZ001",
+        "https://api.weather.gov/zones/forecast/NVZ002",
+        "https://api.weather.gov/zones/forecast/NVZ003",
+        "https://api.weather.gov/zones/forecast/NVZ004",
+        "https://api.weather.gov/zones/forecast/NVZ005"
+      ],
+      "references": [],
+      "sent": "2023-04-30T14:13:00-07:00",
+      "effective": "2023-04-30T14:13:00-07:00",
+      "onset": "2023-04-30T14:13:00-07:00",
+      "expires": "2023-05-01T15:00:00-07:00",
+      "ends": null,
+      "status": "Actual",
+      "messageType": "Alert",
+      "category": "Met",
+      "severity": "Moderate",
+      "certainty": "Observed",
+      "urgency": "Expected",
+      "event": "Special Weather Statement",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Reno NV",
+      "headline": "Special Weather Statement issued April 30 at 2:13PM PDT by NWS Reno NV",
+      "description": "* A slow moving low pressure system will provide daily chances for\na mix of rain, snow, and pellet showers this week with rain-snow\nlines lowering to 5500-7000 feet by Tuesday morning. A few\nthunderstorms will also be possible each day (20-30% chance).\n\n* Be prepared for snow showers in the Sierra. While warm road\ntemperatures and the early May sun angle may limit accumulations\non paved surfaces, bursts of heavy snow and/or snow occurring\nduring the overnight hours could bring travel impacts to\nmountain passes.\n\n* Expect gusty southerly winds to develop through mid-week with\nthe strongest winds targeting portions of Churchill, Mineral,\nLyon, and Mono Counites with potential crosswind travel impacts\nto US-395 and US-95.\n\n* Temperatures will cool to season averages on Monday before\ndipping 5 to 10 degrees below early May normals through much of\nthe upcoming week.\n\n* Additional low pressure systems may track across the region by\nnext weekend which could yield continued cool and breezy\nconditions. This may yield more rain and snow showers with snow\nlevels remaining around 6000 to 8000 feet.",
+      "instruction": null,
+      "response": "Execute",
+      "parameters": {
+        "AWIPSidentifier": [
+          "SPSREV"
+        ],
+        "WMOidentifier": [
+          "WWUS85 KREV 302113"
+        ],
+        "NWSheadline": [
+          "Cooler, Unsettled Weather this Week"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "EAS-ORG": [
+          "WXR"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.305e7c4badef07ecc159b1a2f12fe41558e26960.001.1",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.305e7c4badef07ecc159b1a2f12fe41558e26960.001.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.305e7c4badef07ecc159b1a2f12fe41558e26960.001.1",
+      "areaDesc": "Imperial County Southwest; Imperial County West; Imperial Valley",
+      "geocode": {
+        "SAME": [
+          "006025"
+        ],
+        "UGC": [
+          "CAZ562",
+          "CAZ566",
+          "CAZ567"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/forecast/CAZ562",
+        "https://api.weather.gov/zones/forecast/CAZ566",
+        "https://api.weather.gov/zones/forecast/CAZ567"
+      ],
+      "references": [],
+      "sent": "2023-04-30T08:38:00-07:00",
+      "effective": "2023-04-30T08:38:00-07:00",
+      "onset": "2023-04-30T08:38:00-07:00",
+      "expires": "2023-05-02T00:00:00-07:00",
+      "ends": null,
+      "status": "Actual",
+      "messageType": "Alert",
+      "category": "Met",
+      "severity": "Unknown",
+      "certainty": "Unknown",
+      "urgency": "Unknown",
+      "event": "Air Quality Alert",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Phoenix AZ",
+      "headline": "Air Quality Alert issued April 30 at 8:38AM MST by NWS Phoenix AZ",
+      "description": "The Imperial County APCD has issued an air quality alert due to\nincreased particulate matter from blowing dust. The air quality\nalert is in effect Monday, May 1, 2023 from the afternoon until the\nlate evening.\n\nIn areas directly impacted by high levels of windblown dust, limit\nyour exposure by remaining indoors with windows and doors closed and\navoiding vigorous physical activity. Run your air conditioner or an\nair purifier. If temperatures allow, avoid using whole house fans or\nswamp coolers that bring in outside air.\n\nExposure to high particle pollution levels can cause serious health\nproblems, including asthma attacks, heart and lung disease symptoms,\nand increased risk of respiratory infections. People with heart or\nlung diseases should follow their doctor's advice for dealing with\nepisodes of unhealthy air quality. Children, older adults, and\npeople with respiratory or heart disease should avoid prolonged\nexposure and strenuous activities when particle pollution levels are\nhigh.\n\nTo help minimize outdoor particulate levels:\nCarpool, telecommute, reduce trips, or take public transportation\nSlow down if driving on dirt roads\nStabilize loose soils\n\nLevels of particulate matter can vary hour by hour and by location\ndepending on wind conditions.\n\nTo view current and forecast air quality within Imperial County\nvisit the Imperial County Air Quality website at\nhttp://www.imperialvalleyair.org/ or follow ICAPCD on Twitter,\nfacebook or Instagram (@county_air).",
+      "instruction": null,
+      "response": "Monitor",
+      "parameters": {
+        "AWIPSidentifier": [
+          "AQAPSR"
+        ],
+        "WMOidentifier": [
+          "AEUS75 KPSR 301538"
+        ],
+        "NWSheadline": [
+          "AIR QUALITY ALERT DUE TO ELEVATED PARTICULATE MATTER LEVELS FROM WINDBLOWN DUST"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.184fb042c5c9cda7499ff5560d313454a02fc5f1.003.1",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.184fb042c5c9cda7499ff5560d313454a02fc5f1.003.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.184fb042c5c9cda7499ff5560d313454a02fc5f1.003.1",
+      "areaDesc": "Santa Barbara County Southwestern Coast; Santa Ynez Mountains Western Range",
+      "geocode": {
+        "SAME": [
+          "006083"
+        ],
+        "UGC": [
+          "CAZ349",
+          "CAZ351"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/forecast/CAZ349",
+        "https://api.weather.gov/zones/forecast/CAZ351"
+      ],
+      "references": [],
+      "sent": "2023-04-30T03:00:00-07:00",
+      "effective": "2023-04-30T03:00:00-07:00",
+      "onset": "2023-04-30T17:00:00-07:00",
+      "expires": "2023-04-30T11:00:00-07:00",
+      "ends": "2023-05-01T03:00:00-07:00",
+      "status": "Actual",
+      "messageType": "Alert",
+      "category": "Met",
+      "severity": "Moderate",
+      "certainty": "Likely",
+      "urgency": "Expected",
+      "event": "Wind Advisory",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Los Angeles/Oxnard CA",
+      "headline": "Wind Advisory issued April 30 at 3:00AM PDT until May 1 at 3:00AM PDT by NWS Los Angeles/Oxnard CA",
+      "description": "* WHAT...Northwest winds 20 to 35 mph with gusts up to 50 mph\nexpected.\n\n* WHERE...Santa Barbara County Southwestern Coast and Santa Ynez\nMountains Western Range.\n\n* WHEN...From 5 PM this afternoon to 3 AM PDT Monday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects and\nmake driving difficult, especially for high profile vehicles.\nRoadways affected by gusty cross winds may include Highways 101\nand 154. Tree limbs could be blown down and a few power outages\nmay result.",
+      "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle. Secure outdoor objects.",
+      "response": "Execute",
+      "parameters": {
+        "AWIPSidentifier": [
+          "NPWLOX"
+        ],
+        "WMOidentifier": [
+          "WWUS76 KLOX 301000"
+        ],
+        "NWSheadline": [
+          "WIND ADVISORY IN EFFECT FROM 5 PM THIS AFTERNOON TO 3 AM PDT MONDAY"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "VTEC": [
+          "/O.NEW.KLOX.WI.Y.0049.230501T0000Z-230501T1000Z/"
+        ],
+        "eventEndingTime": [
+          "2023-05-01T10:00:00+00:00"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eccdbbfe39807b76aa1af9dd253c9cef3f6f6097.001.1",
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -119.75,
+            37.76
+          ],
+          [
+            -119.6,
+            37.8
+          ],
+          [
+            -119.58,
+            37.69
+          ],
+          [
+            -119.67999999999999,
+            37.61
+          ],
+          [
+            -119.75,
+            37.76
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eccdbbfe39807b76aa1af9dd253c9cef3f6f6097.001.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.eccdbbfe39807b76aa1af9dd253c9cef3f6f6097.001.1",
+      "areaDesc": "Mariposa, CA",
+      "geocode": {
+        "SAME": [
+          "006043"
+        ],
+        "UGC": [
+          "CAC043"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/county/CAC043"
+      ],
+      "references": [
+        {
+          "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.519e065dcf062ba97ac69d11250d1bfff356fa1d.001.1",
+          "identifier": "urn:oid:2.49.0.1.840.0.519e065dcf062ba97ac69d11250d1bfff356fa1d.001.1",
+          "sender": "w-nws.webmaster@noaa.gov",
+          "sent": "2023-04-29T08:41:00-07:00"
+        }
+      ],
+      "sent": "2023-04-29T21:56:00-07:00",
+      "effective": "2023-04-29T21:56:00-07:00",
+      "onset": "2023-04-29T21:56:00-07:00",
+      "expires": "2023-04-30T10:00:00-07:00",
+      "ends": "2023-05-01T10:00:00-07:00",
+      "status": "Actual",
+      "messageType": "Update",
+      "category": "Met",
+      "severity": "Severe",
+      "certainty": "Observed",
+      "urgency": "Immediate",
+      "event": "Flood Warning",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Hanford CA",
+      "headline": "Flood Warning issued April 29 at 9:56PM PDT until May 1 at 10:00AM PDT by NWS Hanford CA",
+      "description": "* WHAT...Minor flooding is forecast.\n\n* WHERE...Merced River at Pohono Bridge.\n\n* WHEN...Until late Monday morning.\n\n* IMPACTS...At 10.0 feet, Western portion of North Pines Campground\nlocated at the east end of Yosemite Valley between the confluence\nof the Merced River and Tenaya Creek begins to flood. Water rises\nto the base of the swinging bridge downstream from Chapel Meadow.\n\n* ADDITIONAL DETAILS...\n- At 8:00 AM PDT Saturday the stage was 9.0 feet.\n- Forecast...The river is expected to rise above flood stage\njust after midnight tonight to a crest of 10.3 feet late\ntonight. It will then fall below flood stage tomorrow\nmorning.\n- Flood stage is 10.0 feet.\n- Flood History...This crest compares to a previous crest of\n10.2 feet on 06/09/1978.\n- http://www.weather.gov/safety/flood",
+      "instruction": null,
+      "response": "Avoid",
+      "parameters": {
+        "AWIPSidentifier": [
+          "FLSHNX"
+        ],
+        "WMOidentifier": [
+          "WGUS86 KHNX 300456"
+        ],
+        "NWSheadline": [
+          "FLOOD WARNING FOR SNOWMELT NOW IN EFFECT UNTIL LATE MONDAY MORNING"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "EAS-ORG": [
+          "WXR"
+        ],
+        "VTEC": [
+          "/O.EXT.KHNX.FL.W.0009.000000T0000Z-230501T1700Z/"
+        ],
+        "eventEndingTime": [
+          "2023-05-01T17:00:00+00:00"
+        ],
+        "expiredReferences": [
+          "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4d2389725b53e5fb876f771923c32f94449b21e4.001.1,2023-04-28T21:41:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.45305e1f5de7ee39e142a77725253c4b2012ef59.001.1,2023-04-28T09:06:00-07:00"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.911583f11e454094c2157c3b39f7ff6a8460740b.001.1",
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -119.81,
+            36.4
+          ],
+          [
+            -119.61,
+            36.47
+          ],
+          [
+            -119.54,
+            36.51
+          ],
+          [
+            -119.53,
+            36.53
+          ],
+          [
+            -119.49,
+            36.58
+          ],
+          [
+            -119.5,
+            36.629999999999995
+          ],
+          [
+            -119.56,
+            36.669999999999995
+          ],
+          [
+            -119.38,
+            36.849999999999994
+          ],
+          [
+            -119.32,
+            36.8
+          ],
+          [
+            -119.47,
+            36.68
+          ],
+          [
+            -119.45,
+            36.64
+          ],
+          [
+            -119.45,
+            36.57
+          ],
+          [
+            -119.48,
+            36.5
+          ],
+          [
+            -119.55,
+            36.42
+          ],
+          [
+            -119.78,
+            36.370000000000005
+          ],
+          [
+            -119.8,
+            36.400000000000006
+          ],
+          [
+            -119.81,
+            36.4
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.911583f11e454094c2157c3b39f7ff6a8460740b.001.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.911583f11e454094c2157c3b39f7ff6a8460740b.001.1",
+      "areaDesc": "Fresno, CA; Kings, CA; Tulare, CA",
+      "geocode": {
+        "SAME": [
+          "006019",
+          "006031",
+          "006107"
+        ],
+        "UGC": [
+          "CAC019",
+          "CAC031",
+          "CAC107"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/county/CAC019",
+        "https://api.weather.gov/zones/county/CAC031",
+        "https://api.weather.gov/zones/county/CAC107"
+      ],
+      "references": [
+        {
+          "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f7d8b556e3885de119eefaa139c323b32ab77dec.001.1",
+          "identifier": "urn:oid:2.49.0.1.840.0.f7d8b556e3885de119eefaa139c323b32ab77dec.001.1",
+          "sender": "w-nws.webmaster@noaa.gov",
+          "sent": "2023-04-28T09:12:00-07:00"
+        }
+      ],
+      "sent": "2023-04-29T09:42:00-07:00",
+      "effective": "2023-04-29T09:42:00-07:00",
+      "onset": "2023-04-29T09:42:00-07:00",
+      "expires": "2023-05-02T10:00:00-07:00",
+      "ends": "2023-05-02T10:00:00-07:00",
+      "status": "Actual",
+      "messageType": "Update",
+      "category": "Met",
+      "severity": "Severe",
+      "certainty": "Likely",
+      "urgency": "Expected",
+      "event": "Flood Warning",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Hanford CA",
+      "headline": "Flood Warning issued April 29 at 9:42AM PDT until May 2 at 10:00AM PDT by NWS Hanford CA",
+      "description": "* WHAT...Flooding caused by upstream dam release continues.\n\n* WHERE...A portion of central California, including the following\ncounties, Fresno, Kings and Tulare.\n\n* WHEN...Until further notice.\n\n* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying\nand flood-prone locations is imminent or occurring. Several\nstructures are flooded and some sand bagging operations are\ncontinuing. Streams continue to rise due to excess runoff from\nearlier rainfall. Low-water crossings are inundated with water and\nmay not be passable.\n\n* ADDITIONAL DETAILS...\n- At 940 AM PDT, an upstream floodgate release is expected to\ncause flooding in the warned area.\n- Some locations that will experience flooding include...\nSanger, Reedley and Laton. Other flood prone locations such\nas Reedley Beach, Riverland RV Park, and the King's River\nGolf and Country Club will continue to see flooding.\n- http://www.weather.gov/safety/flood",
+      "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+      "response": "Avoid",
+      "parameters": {
+        "AWIPSidentifier": [
+          "FLWHNX"
+        ],
+        "WMOidentifier": [
+          "WGUS46 KHNX 291642"
+        ],
+        "NWSheadline": [
+          "FLOOD WARNING FOR A DAM FLOODGATE RELEASE NOW IN EFFECT UNTIL FURTHER NOTICE"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "EAS-ORG": [
+          "WXR"
+        ],
+        "VTEC": [
+          "/O.EXT.KHNX.FA.W.0017.000000T0000Z-230502T1700Z/"
+        ],
+        "eventEndingTime": [
+          "2023-05-02T17:00:00+00:00"
+        ],
+        "expiredReferences": [
+          "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.642a4a09687a72addc06c28c89550afe782e938f.001.1,2023-04-26T09:27:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bdaa9aa6513f6dbb8a157a89f1e6955657f3b926.001.1,2023-04-23T09:10:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e27f5fdcb78f6d23d4a5429d7b75eefefd8ee910.001.1,2023-04-21T09:23:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bd0fadc3e2ad03e653af7e5c912d384eefeba063.001.1,2023-04-17T17:06:00-07:00"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0c9bab6abf199a93beef4bdd1e518a53b7282f33.001.1",
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -119.69,
+            37
+          ],
+          [
+            -119.73,
+            36.96
+          ],
+          [
+            -119.73,
+            36.94
+          ],
+          [
+            -119.77000000000001,
+            36.9
+          ],
+          [
+            -119.79,
+            36.86
+          ],
+          [
+            -119.83000000000001,
+            36.83
+          ],
+          [
+            -119.93,
+            36.83
+          ],
+          [
+            -120.04,
+            36.8
+          ],
+          [
+            -120.09,
+            36.809999999999995
+          ],
+          [
+            -120.16,
+            36.78999999999999
+          ],
+          [
+            -120.19,
+            36.75999999999999
+          ],
+          [
+            -120.28999999999999,
+            36.74999999999999
+          ],
+          [
+            -120.41,
+            36.74999999999999
+          ],
+          [
+            -120.35,
+            36.82999999999999
+          ],
+          [
+            -120.25,
+            36.78999999999999
+          ],
+          [
+            -120.07,
+            36.83999999999999
+          ],
+          [
+            -119.82,
+            36.87999999999999
+          ],
+          [
+            -119.72,
+            37.00999999999999
+          ],
+          [
+            -119.71,
+            37.00999999999999
+          ],
+          [
+            -119.69,
+            37
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0c9bab6abf199a93beef4bdd1e518a53b7282f33.001.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.0c9bab6abf199a93beef4bdd1e518a53b7282f33.001.1",
+      "areaDesc": "Fresno, CA; Madera, CA",
+      "geocode": {
+        "SAME": [
+          "006019",
+          "006039"
+        ],
+        "UGC": [
+          "CAC019",
+          "CAC039"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/county/CAC019",
+        "https://api.weather.gov/zones/county/CAC039"
+      ],
+      "references": [
+        {
+          "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6db15070d555059aeb6f15b9452104cfb898d59a.001.1",
+          "identifier": "urn:oid:2.49.0.1.840.0.6db15070d555059aeb6f15b9452104cfb898d59a.001.1",
+          "sender": "w-nws.webmaster@noaa.gov",
+          "sent": "2023-04-28T09:10:00-07:00"
+        }
+      ],
+      "sent": "2023-04-29T09:38:00-07:00",
+      "effective": "2023-04-29T09:38:00-07:00",
+      "onset": "2023-04-29T09:38:00-07:00",
+      "expires": "2023-05-02T10:00:00-07:00",
+      "ends": "2023-05-02T10:00:00-07:00",
+      "status": "Actual",
+      "messageType": "Update",
+      "category": "Met",
+      "severity": "Minor",
+      "certainty": "Likely",
+      "urgency": "Expected",
+      "event": "Flood Advisory",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Hanford CA",
+      "headline": "Flood Advisory issued April 29 at 9:38AM PDT until May 2 at 10:00AM PDT by NWS Hanford CA",
+      "description": "* WHAT...Flooding caused by upstream dam release continues.\n\n* WHERE...A portion of central California, including the following\ncounties, Fresno and Madera.\n\n* WHEN...Until further notice.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nWater over roadways. River or stream flows are elevated.\n\n* ADDITIONAL DETAILS...\n- At 935 AM PDT, An upstream floodgate release is expected to\ncause minor flooding in the advisory area.\n- Some locations that will experience flooding include...\nFresno, Mendota, Biola, Friant and Millerton Lake.\n- http://www.weather.gov/safety/flood",
+      "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe aware of your surroundings and do not drive on flooded roads.\n\nPlease report observed flooding to local emergency services or law\nenforcement and request they pass this information to the National\nWeather Service when you can do so safely.",
+      "response": "Avoid",
+      "parameters": {
+        "AWIPSidentifier": [
+          "FLSHNX"
+        ],
+        "WMOidentifier": [
+          "WGUS86 KHNX 291638"
+        ],
+        "NWSheadline": [
+          "FLOOD ADVISORY FOR A DAM FLOODGATE RELEASE AT FRIANT DAM REMAINS IN EFFECT UNTIL FURTHER NOTICE"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "VTEC": [
+          "/O.EXT.KHNX.FA.Y.0080.000000T0000Z-230502T1700Z/"
+        ],
+        "eventEndingTime": [
+          "2023-05-02T17:00:00+00:00"
+        ],
+        "expiredReferences": [
+          "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.75a105ac6963d98b5fabd5de3f2237ef92633f3a.001.1,2023-04-26T09:19:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cc6a928cd72958813fc7c42b8bebde004c6e48d5.001.1,2023-04-23T09:06:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dc94b415b0a28afb9fb4e3ffea5d7a278d590b50.001.1,2023-04-21T07:32:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7e64a49162fab563ed21024b8e2e828e06d910e0.001.1,2023-04-14T19:09:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.590ddbb02b7a0d8cef319fed0a9df5beddc04852.001.1,2023-04-14T09:12:00-07:00"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0730c4efb1019a39ef45c6f8bf22fcdf7965236f.001.1",
+    "type": "Feature",
+    "geometry": null,
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0730c4efb1019a39ef45c6f8bf22fcdf7965236f.001.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.0730c4efb1019a39ef45c6f8bf22fcdf7965236f.001.1",
+      "areaDesc": "Yosemite NP outside of the valley; Yosemite Valley",
+      "geocode": {
+        "SAME": [
+          "006039",
+          "006043",
+          "006109"
+        ],
+        "UGC": [
+          "CAZ323",
+          "CAZ324"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/forecast/CAZ323",
+        "https://api.weather.gov/zones/forecast/CAZ324"
+      ],
+      "references": [
+        {
+          "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.57b5fe8c0a55aa9e083812aa37aa55d9a6ae15af.001.1",
+          "identifier": "urn:oid:2.49.0.1.840.0.57b5fe8c0a55aa9e083812aa37aa55d9a6ae15af.001.1",
+          "sender": "w-nws.webmaster@noaa.gov",
+          "sent": "2023-04-28T18:10:00-07:00"
+        }
+      ],
+      "sent": "2023-04-29T03:40:00-07:00",
+      "effective": "2023-04-29T03:40:00-07:00",
+      "onset": "2023-04-29T03:40:00-07:00",
+      "expires": "2023-04-29T15:45:00-07:00",
+      "ends": "2023-05-02T07:00:00-07:00",
+      "status": "Actual",
+      "messageType": "Update",
+      "category": "Met",
+      "severity": "Severe",
+      "certainty": "Possible",
+      "urgency": "Future",
+      "event": "Flood Watch",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Hanford CA",
+      "headline": "Flood Watch issued April 29 at 3:40AM PDT until May 2 at 7:00AM PDT by NWS Hanford CA",
+      "description": "* WHAT...Flooding caused by snowmelt continues to be possible.\n\n* WHERE...A portion of central California, including the following\nareas, Yosemite NP outside of the valley and Yosemite Valley.\n\n* WHEN...Through Tuesday morning.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nThis includes Yosemite National Park, as well as Pohono Bridge in\nYosemite Valley.\n\n* ADDITIONAL DETAILS...\n- An extended period of very warm temperatures will cause rapid\nsnow melt which is expected to cause flooding along waterways\nin Yosemite National Park. This also includes locations in\nYosemite Valley, such as the Merced River at Pohono Bridge.\n- http://www.weather.gov/safety/flood",
+      "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop.",
+      "response": "Prepare",
+      "parameters": {
+        "AWIPSidentifier": [
+          "FFAHNX"
+        ],
+        "WMOidentifier": [
+          "WGUS66 KHNX 291040"
+        ],
+        "NWSheadline": [
+          "FLOOD WATCH FOR SNOWMELT REMAINS IN EFFECT THROUGH TUESDAY MORNING"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "EAS-ORG": [
+          "WXR"
+        ],
+        "VTEC": [
+          "/O.CON.KHNX.FA.A.0010.000000T0000Z-230502T1400Z/"
+        ],
+        "eventEndingTime": [
+          "2023-05-02T14:00:00+00:00"
+        ],
+        "expiredReferences": [
+          "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d6905e8644a6dfa3aa4e188a66db4a19dd00c71b.001.1,2023-04-28T06:19:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8046cfddb50bd27724f832df075527e56b1fb1a9.001.1,2023-04-27T22:39:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7318fbf19773bfdfc2cd8317cecd755b61c7ce48.001.1,2023-04-27T12:40:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a8ff8cf33db448a1cb37031f3a0510db86d8a063.001.1,2023-04-27T04:49:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3e2578503d96f5b17168e7d35da9a1c6eacf156d.001.1,2023-04-26T17:42:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e1cf89e6157073a19c220d5969c16dbb8b281f72.001.1,2023-04-26T09:34:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.48343fa2bb04df05d979de02480f505f9bbff5e5.001.1,2023-04-25T21:36:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9178d71fe92d0fc05098d101187e1f4c634357dc.001.1,2023-04-25T09:37:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e591096fbc14f2e33cc75f8194b792843221d86f.001.1,2023-04-25T00:45:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.92579bab5b60d2e5f015841b8d463a999ed4158e.001.1,2023-04-24T13:00:00-07:00"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d2389725b53e5fb876f771923c32f94449b21e4.001.1",
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -119.75,
+            37.76
+          ],
+          [
+            -119.6,
+            37.8
+          ],
+          [
+            -119.58,
+            37.69
+          ],
+          [
+            -119.67999999999999,
+            37.61
+          ],
+          [
+            -119.75,
+            37.76
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d2389725b53e5fb876f771923c32f94449b21e4.001.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.4d2389725b53e5fb876f771923c32f94449b21e4.001.1",
+      "areaDesc": "Mariposa, CA",
+      "geocode": {
+        "SAME": [
+          "006043"
+        ],
+        "UGC": [
+          "CAC043"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/county/CAC043"
+      ],
+      "references": [
+        {
+          "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.45305e1f5de7ee39e142a77725253c4b2012ef59.001.1",
+          "identifier": "urn:oid:2.49.0.1.840.0.45305e1f5de7ee39e142a77725253c4b2012ef59.001.1",
+          "sender": "w-nws.webmaster@noaa.gov",
+          "sent": "2023-04-28T09:06:00-07:00"
+        }
+      ],
+      "sent": "2023-04-28T21:41:00-07:00",
+      "effective": "2023-04-28T21:41:00-07:00",
+      "onset": "2023-04-29T01:00:00-07:00",
+      "expires": "2023-04-29T09:45:00-07:00",
+      "ends": "2023-05-01T10:00:00-07:00",
+      "status": "Actual",
+      "messageType": "Update",
+      "category": "Met",
+      "severity": "Severe",
+      "certainty": "Observed",
+      "urgency": "Immediate",
+      "event": "Flood Warning",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Hanford CA",
+      "headline": "Flood Warning issued April 28 at 9:41PM PDT until May 1 at 10:00AM PDT by NWS Hanford CA",
+      "description": "* WHAT...Minor flooding is forecast.\n\n* WHERE...Merced River at Pohono Bridge.\n\n* WHEN...From late tonight to late Monday morning.\n\n* IMPACTS...At 10.0 feet, Western portion of North Pines Campground\nlocated at the east end of Yosemite Valley between the confluence\nof the Merced River and Tenaya Creek begins to flood. Water rises\nto the base of the swinging bridge downstream from Chapel Meadow.\n\n* ADDITIONAL DETAILS...\n- At 8:00 AM PDT Friday the stage was 8.7 feet.\n- Forecast...The river is expected to rise above flood stage\njust after midnight tonight to a crest of 10.2 feet late\ntonight. It will then fall below flood stage tomorrow\nmorning.\n- Flood stage is 10.0 feet.\n- Flood History...This crest compares to a previous crest of\n10.2 feet on 06/09/1978.\n- http://www.weather.gov/safety/flood",
+      "instruction": null,
+      "response": "Avoid",
+      "parameters": {
+        "AWIPSidentifier": [
+          "FLSHNX"
+        ],
+        "WMOidentifier": [
+          "WGUS86 KHNX 290441"
+        ],
+        "NWSheadline": [
+          "FLOOD WARNING FOR SNOWMELT REMAINS IN EFFECT FROM LATE TONIGHT TO LATE MONDAY MORNING"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "EAS-ORG": [
+          "WXR"
+        ],
+        "VTEC": [
+          "/O.CON.KHNX.FL.W.0009.230429T0800Z-230501T1700Z/"
+        ],
+        "eventEndingTime": [
+          "2023-05-01T17:00:00+00:00"
+        ]
+      }
+    }
+  },
+  {
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e9d1b5a5c26345246057507c1adee5db63c81c3.001.1",
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -120.2,
+            39.81
+          ],
+          [
+            -120.19,
+            39.82
+          ],
+          [
+            -120.17,
+            39.83
+          ],
+          [
+            -120.17,
+            39.86
+          ],
+          [
+            -120.18,
+            39.87
+          ],
+          [
+            -120.19000000000001,
+            39.87
+          ],
+          [
+            -120.20000000000002,
+            39.879999999999995
+          ],
+          [
+            -120.20000000000002,
+            39.88999999999999
+          ],
+          [
+            -120.19000000000001,
+            39.88999999999999
+          ],
+          [
+            -120.18,
+            39.88999999999999
+          ],
+          [
+            -120.18,
+            39.879999999999995
+          ],
+          [
+            -120.17,
+            39.87
+          ],
+          [
+            -120.15,
+            39.86
+          ],
+          [
+            -120.15,
+            39.839999999999996
+          ],
+          [
+            -120.16000000000001,
+            39.81999999999999
+          ],
+          [
+            -120.17000000000002,
+            39.809999999999995
+          ],
+          [
+            -120.19000000000001,
+            39.809999999999995
+          ],
+          [
+            -120.2,
+            39.81
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e9d1b5a5c26345246057507c1adee5db63c81c3.001.1",
+      "@type": "wx:Alert",
+      "id": "urn:oid:2.49.0.1.840.0.7e9d1b5a5c26345246057507c1adee5db63c81c3.001.1",
+      "areaDesc": "Plumas, CA",
+      "geocode": {
+        "SAME": [
+          "006063"
+        ],
+        "UGC": [
+          "CAC063"
+        ]
+      },
+      "affectedZones": [
+        "https://api.weather.gov/zones/county/CAC063"
+      ],
+      "references": [
+        {
+          "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.01f117c6f74f6cd5fab21f821b59d107abbd9788.001.1",
+          "identifier": "urn:oid:2.49.0.1.840.0.01f117c6f74f6cd5fab21f821b59d107abbd9788.001.1",
+          "sender": "w-nws.webmaster@noaa.gov",
+          "sent": "2023-04-21T14:01:00-07:00"
+        }
+      ],
+      "sent": "2023-04-28T14:43:00-07:00",
+      "effective": "2023-04-28T14:43:00-07:00",
+      "onset": "2023-04-28T14:43:00-07:00",
+      "expires": "2023-05-05T15:30:00-07:00",
+      "ends": "2023-05-05T15:30:00-07:00",
+      "status": "Actual",
+      "messageType": "Update",
+      "category": "Met",
+      "severity": "Minor",
+      "certainty": "Likely",
+      "urgency": "Expected",
+      "event": "Flood Advisory",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "senderName": "NWS Reno NV",
+      "headline": "Flood Advisory issued April 28 at 2:43PM PDT until May 5 at 3:30PM PDT by NWS Reno NV",
+      "description": "* WHAT...Very high flows along Little Last Chance Creek due to an\nupstream dam release at Frenchman Dam and increased snowmelt.\n\n* WHERE...A portion of northeast California, including the following\ncounty, Plumas.\n\n* WHEN...Until 330 PM PDT Friday May 05.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas and\nnearing Highway 70. River or stream flows are elevated.\n\n* ADDITIONAL DETAILS...\n- At 242 PM PDT, Flooding is possible along Little Last Chance\nCreek due to an upstream dam release and increased snowmelt.\n- Some locations that will experience flooding include...\nlow lying areas around Little Last Chance Creek.\n- http://www.weather.gov/safety/flood",
+      "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+      "response": "Avoid",
+      "parameters": {
+        "AWIPSidentifier": [
+          "FLSREV"
+        ],
+        "WMOidentifier": [
+          "WGUS85 KREV 282143"
+        ],
+        "NWSheadline": [
+          "FLOOD ADVISORY FOR A DAM FLOODGATE RELEASE NOW IN EFFECT UNTIL 330 PM PDT FRIDAY"
+        ],
+        "BLOCKCHANNEL": [
+          "EAS",
+          "NWEM",
+          "CMAS"
+        ],
+        "VTEC": [
+          "/O.EXT.KREV.FA.Y.0011.000000T0000Z-230505T2230Z/"
+        ],
+        "eventEndingTime": [
+          "2023-05-05T22:30:00+00:00"
+        ],
+        "expiredReferences": [
+          "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9da034acc5f84ed6c1adc998078bc575d6ad7a73.001.1,2023-04-18T12:30:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f8c841ed80fd63119e90973ae9506784ba3369b6.001.1,2023-04-14T16:35:00-07:00"
+        ]
+      }
+    }
+  }
+]
